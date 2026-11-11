@@ -65,3 +65,49 @@ nav ul li img{
     color: #f5cda7;
     font-size: 20px;
 }
+
+
+/* about section design starts from here */
+.about-me{
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+.about-img img{
+    width: 650px;
+}
+.about-sml-card .about-icon img{
+    width: 25px;
+    height: 25px;
+    margin: 15px 0px;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(75%) saturate(3000%) hue-rotate(260deg) brightness(95%) contrast(105%);
+
+}
+.about-desc-others{
+    display: flex;
+    margin: 30px 0px;
+}
+.about-sml-card{
+    display: flex;
+    gap: 20px;
+}
+.about-wr h4{
+    margin: 5px 0px;
+}
+.about-desc-head{
+    margin-bottom: 30px;
+}
+.about-desc-head h2{
+    font-size: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-desc-para h3{
+    margin: 30px 0px;
+}
+.about-desc-para p{
+    line-height: 1.;
+    font-size: 20px;
+}
+.about-desc{
+    margin: 60px 0px;
+}
