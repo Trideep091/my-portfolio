@@ -245,6 +245,7 @@ nav ul li img{
 }
 .my-proj{
     background-color: #E5C07B;
+    padding: 10px 0px;
 }
 .proj_contents{
     width: 85%;
@@ -273,4 +274,51 @@ nav ul li img{
 .proj-card:hover{
     transform: translateY(-12px);
     box-shadow: 2px 3px 10px black;
+}
+/* hobbies section starts here */
+.hobby h1{
+    font-family:fantasy;
+    text-align: center;
+    padding: 20px;
+}
+.hobby{
+    background-color: gray;
+    padding: 10px 0px;
+}
+.hobby_contents{
+    width: 80%;
+    margin: 20px auto;
+}
+.hobby-line-img img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    transition: 0.35s ease;
+}
+.hobby_line{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    border: 3px solid rgb(3, 30, 49);
+    margin: 20px 0px;
+    border-radius: 0px 30px 0px 30px;
+    background: linear-gradient(
+        120deg,
+        #28261b,
+        #8d9251
+    );
+    box-shadow: 0 8px 25px rgba(80, 50, 120, 0.08);
+    transition: 0.35s ease;
+}
+.hobby-line:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(80, 50, 120, 0.15);
+}
+.hobby-line-desc{
+ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: white;
 }
