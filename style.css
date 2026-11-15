@@ -237,3 +237,40 @@ nav ul li img{
     display: flex;
     justify-content: flex-end;
 }
+/* my project section starts here */
+.my-proj h1{
+    font-family:fantasy;
+    text-align: center;
+    padding: 20px;
+}
+.my-proj{
+    background-color: #E5C07B;
+}
+.proj_contents{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.proj-card .proj-card-img img{
+    width: 400px;
+    height: 200px;
+}
+.proj-card{
+    background-color: #203A43;
+    padding: 25px 0px;
+    border-radius: 20px 0px 20px 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.proj-card-desc{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.proj-card:hover{
+    transform: translateY(-12px);
+    box-shadow: 2px 3px 10px black;
+}
