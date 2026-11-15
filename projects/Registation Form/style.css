@@ -1,0 +1,61 @@
+.conatiner
+{
+  width: 450px;
+  border-radius: 6px;
+  top: 10%;
+  left: 32%;
+  position: absolute;
+  height: 500px;
+  background-color:  white;
+  /* justify-content: center;
+  align-items: center; */
+}
+body
+{
+  scroll-behavior: smooth;
+  margin: 0%;
+  background-image: linear-gradient(to bottom right, #3498DB, #A569BD);
+  padding: 0%;
+  box-sizing: border-box;
+  position: relative;
+}
+.heading
+{
+  font-family: 'Open Sans', sans-serif;
+  padding: 5px;
+}
+input
+{
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+
+}
+input[type= text]:focus
+{
+  box-shadow: 2px 2px 2px #8E44AD;
+  border-color: : 2px #8E44AD;
+
+}
+.info_area
+{
+  padding: 10px;
+}
+.area
+{
+  display: flex;
+  margin: 10px 0px;
+}
+.ph
+{
+  margin-left: 16px;
+}
+.co
+{
+  margin-left: 37px;
+}
+label
+{
+  font-family: cursive;
+  margin: 8px 0px;
+}

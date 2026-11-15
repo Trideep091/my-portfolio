@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.images {
+    column-count: 3;
+    column-gap: 15px;
+}
+
+.img {
+    width: 100%;
+    margin-bottom: 15px;
+    
+    /* Prevent an image from breaking between columns */
+    break-inside: avoid;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}

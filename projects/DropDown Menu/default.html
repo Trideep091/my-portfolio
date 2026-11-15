@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    .drop-down
+    {
+        background-color: cadetblue;
+        padding: 10px;
+        text-align: center;
+    }
+
+    body
+    {
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .drop-down a 
+    {
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 5px;
+        color: white;
+    }
+
+    
+    .contact{
+            display: inline;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .contents{
+            position: absolute;
+            top: 30px;
+            right: 0px;
+            background-color: #40868b;
+            text-align: left;
+            padding: 20px;
+            display: none;
+        }
+
+        .contents a{
+            display: block;
+        }
+
+        
+        .contents a:hover{
+           background-color: gray;
+           
+        }
+
+        .contact:hover .contents{
+            display: block;
+        }
+        
+
+</style>
+<body>
+    
+    <div class="drop-down">
+        <a href="#">Home</a>
+        <a href="#">Tutorials</a>
+        <div class="contact">
+            <a href="#">Contact Me </a>
+            <div class="contents">
+                <a href="#">E-mail</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+        
+        <a href="#">About Me</a>
+    </div>
+
+
+</body>
+</html>

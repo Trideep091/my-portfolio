@@ -53,6 +53,8 @@ nav ul li img{
     width: 350px;
     box-shadow: 5px 5px 5px black;
     transform: rotate(-5deg);
+
+    transition: 0.2s;
 }
 .hero-desc{
     margin-top: 150px;
@@ -72,7 +74,10 @@ nav ul li img{
     color: #f5cda7;
     font-size: 20px;
 }
-
+.hero-img img:hover{
+    cursor: pointer;
+    transform: rotate(5deg);
+}
 
 /* about section design starts from here */
 .about-me{
